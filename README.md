@@ -4,8 +4,8 @@
 Extensión para Visual Studio Code que permite convertir texto seleccionado entre mayúsculas y minúsculas fácilmente mediante atajos de teclado.
 
 ## Características
-- Convierte el texto seleccionado a minúsculas (`Ctrl+Alt+up`).
-- Convierte el texto seleccionado a mayúsculas (`Ctrl+Alt+down`).
+- Convierte el texto seleccionado a minúsculas (`Ctrl+Alt+down`).
+- Convierte el texto seleccionado a mayúsculas (`Ctrl+Alt+up`).
 - Funciona con múltiples selecciones simultáneas.
 
 ## Instalación
