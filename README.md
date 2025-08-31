@@ -27,6 +27,10 @@ Extensión para Visual Studio Code que permite convertir texto seleccionado entr
 ## Contribuir
 ¡Las contribuciones son bienvenidas! Puedes abrir issues o enviar pull requests para mejorar la extensión.
 
+
+## Autor
+Daniel Godoy — [GitHub](https://github.com/DanielGodoyDAW)
+
 ## Licencia
 MIT
 
