@@ -1,0 +1,55 @@
+{
+  "name": "conversormayusminus",
+  "displayName": "conversorMayusMinus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielGodoyDAW/conversormayusminus.git"
+  },
+  "description": "Conversor de letra de mayúsculas a minúsculas y viceversa",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "conversormayusminus.toLowerCase",
+        "title": "Convertir a minúsculas"
+      },
+      {
+        "command": "conversormayusminus.toUpperCase",
+        "title": "Convertir a mayúsculas"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "conversormayusminus.toLowerCase",
+        "key": "ctrl+alt+down",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "conversormayusminus.toUpperCase",
+        "key": "ctrl+alt+up",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.103.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "eslint": "^9.32.0",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
