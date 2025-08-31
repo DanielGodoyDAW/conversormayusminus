@@ -1,6 +1,6 @@
 {
-  "name": "conversormayusminus",
-  "displayName": "conversorMayusMinus",
+  "name": "conversor-texto",
+  "displayName": "Conversor de Texto",
   "repository": {
     "type": "git",
     "url": "https://github.com/DanielGodoyDAW/conversormayusminus.git"
